@@ -59,7 +59,7 @@ Input Paramaters (REQUIRED):
 	-g/--genemap		Dataframe	Specify a genemap file that include the doamin name, start, stop, 
 strand and orientation information for each domain occurs in protein accessions.
 
-        -a/--anchor     	gene_name       Specify a gene name for aligning the proteins like an anchoring point.
+	-a/--anchor     	gene_name       Specify a gene name for aligning the proteins like an anchoring point.
 	
 	-c/--clade      	Dataframe       Specify a dataframe that includes the clades to color on phylogenetic 
 tree. 
