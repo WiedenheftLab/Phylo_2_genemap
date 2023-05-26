@@ -60,26 +60,25 @@ Example Dataframe for the clade_info.txt file (tab separated excel file is requi
 
 Phylo_2_genemap dependencies:
 
-	R                                                       refer to 
-https://rstudio-education.github.io/hopr/starting.html
+	R                                       refer to https://rstudio-education.github.io/hopr/starting.html
 
 Input Paramaters (REQUIRED):
 ----------------------------
-	-i/--input		NEWICK			Specify a phylogenetic tree in .newick format.
+	-t/--tree		NEWICK		Specify a phylogenetic tree in .newick format.
 
-	-o/--output		Output file	    Specify a output file name for PNG and EPS files.
+	-o/--output		Output file	Specify a output file name for PNG and EPS files.
 
-	-g/--genemap	Dataframe		Specify a genemap file that include the doamin name, start, stop, 
+	-g/--genemap		Dataframe	Specify a genemap file that include the doamin name, start, stop, 
 strand and orientation information for each domain occurs in protein accessions.
 
-    -a/--anchor     gene_name       Specify a gene name for aligning the proteins like an anchoring point.
+        -a/--anchor     	gene_name       Specify a gene name for aligning the proteins like an anchoring point.
 	
-	-c/--clade      Dataframe       Specify a dataframe that includes the clades to color on phylogenetic 
+	-c/--clade      	Dataframe       Specify a dataframe that includes the clades to color on phylogenetic 
 tree. 
 
 Basic Options:
 --------------
-	-h/--help		HELP			Shows this help text and exits the run.
+	-h/--help		HELP		Shows this help text and exits the run.
 
       	'''))
 
