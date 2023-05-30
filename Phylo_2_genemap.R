@@ -60,7 +60,9 @@ if(length(clade_in)!=0){
     }
   }
   for(i in 1:ncol(clade_df)){
-    quants[["Rest"]] <- uncladed
+    if (length(uncladed)!=0){
+      quants[["Rest"]] <- uncladed
+    }
     quants[[paste0(colnames(clade_df)[i])]] <- get(paste("clade",i,sep = "_"))
   }
   
